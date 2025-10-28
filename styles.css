@@ -1,1 +1,41 @@
-/*  your css code here. If applicable */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+.main-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 200px;
+ 
+}
+.card-one{
+    background-color: rgb(169, 185, 199);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+#price-card{
+margin-top: 5px;
+}
+#price{
+    margin-top: -20px;
+}
+#desc{
+    margin-top: -10px;
+    text-align: center;
+}
+button{
+  background-color: rgb(203, 92, 8);  
+  border-radius: 20px;
+  height: 50px;
+  width: 100px;
+  color: white;
+  font-weight: bold;
+}
